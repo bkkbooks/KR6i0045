@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0045/S/v1
+canonical_location: https://kanripo.org/bkk/KR6i0045/S/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上生經會古通今新抄
+  identifiers:
+    krp: KR6i0045
+    cbeta: S06n0046
+    cbeta_old_id: S06n0046
+    authorityid: CA0008316
+    json_key: S0046
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/S/S06/S06n0046.xml
+    old_id: S06n0046
+  edition:
+    short: S
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0045_000-S.yaml, hash: 'sha256:3d107fc32ffc6d97dcde2759ce4bc386fc670320761e7d0c4ba0555e86ae9ddc'}
+  - {seq: 2, filename: KR6i0045_002-S.yaml, hash: 'sha256:8c03b6964ec935da6e1334e63d64a701917b1b363a797d9695b2b16cfe94c62f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0045_000-S.markers.yaml, hash: 'sha256:11624196fc9f3ff0437d1eed534869e7e14953abf2563262e8092e4ae6b0269a'}
+  - {seq: 2, role: markers, filename: assets/KR6i0045_002-S.markers.yaml, hash: 'sha256:9e058124945e043607b59fe204621848e0cf7cc6326d2fb1a66b7baa744f2d04'}
+table_of_contents:
+- ref:
+    seq: 2
+    marker_id: KR6i0045_S_002-juan-start
+    span:
+    - body
+    - 0
+    - 32827
+  label: 上生經䟽會古通今新抄卷第二
+  type: juan
+  level: 1
+hash: sha256:74d7b4a682216ff12d8d94234ea4cde07674b91bea6f329449d3f57d163d1fa6

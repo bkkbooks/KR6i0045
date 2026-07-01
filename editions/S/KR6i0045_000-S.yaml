@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0045/s/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上生經會古通今新抄
+  edition:
+    short: s
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/S/S06/S06n0046.xml
+    old_id: S06n0046
+hash: sha256:3d107fc32ffc6d97dcde2759ce4bc386fc670320761e7d0c4ba0555e86ae9ddc

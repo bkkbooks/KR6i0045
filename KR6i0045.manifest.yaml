@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR6i0045/v1
+canonical_location: https://kanripo.org/bkk/KR6i0045/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 上生經會古通今新抄
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/S/S06/S06n0046.xml
+    old_id: S06n0046
+  edition:
+    short: bkk
+editions:
+- short: 宋遺
+  label: 宋遺
+  source_xml_id: wit.orig
+- short: S
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0045_000.yaml, hash: 'sha256:3d107fc32ffc6d97dcde2759ce4bc386fc670320761e7d0c4ba0555e86ae9ddc'}
+  - {seq: 2, filename: KR6i0045_002.yaml, hash: 'sha256:f04fb3192afdd073e21eb5b1bdfc980aef1563b8632c6e1f233948a13f14e19b'}
+  markers:
+  - {seq: 2, role: markers, filename: assets/KR6i0045_002.markers.yaml, hash: 'sha256:66888bfb08ca1fd77c54abf7de74d6165ea6d9f34141ac5f462a47ef13626d66'}
+table_of_contents:
+- ref:
+    seq: 2
+    marker_id: KR6i0045_S_002-juan-start
+    span:
+    - body
+    - 0
+    - 32827
+  label: 上生經䟽會古通今新抄卷第二
+  type: juan
+  level: 1
+hash: sha256:1855f0b0ac2dfb2b087bcc49885914f7ffab48e83f75f164b8c68c4f5511bfd9
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
