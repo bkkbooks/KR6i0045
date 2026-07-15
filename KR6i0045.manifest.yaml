@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0045/v1
 canonical_location: https://kanripo.org/bkk/KR6i0045/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 上生經會古通今新抄
   source:
@@ -19,10 +19,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0045_000.yaml, hash: 'sha256:3d107fc32ffc6d97dcde2759ce4bc386fc670320761e7d0c4ba0555e86ae9ddc'}
-  - {seq: 2, filename: KR6i0045_002.yaml, hash: 'sha256:8c03b6964ec935da6e1334e63d64a701917b1b363a797d9695b2b16cfe94c62f'}
+  - {seq: 2, filename: KR6i0045_002.yaml, hash: 'sha256:20e23a3a23af54bc8c223e0a60bd304fa9711a70e021bec40ab3a9757d9c6b34'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0045_000.markers.yaml, hash: 'sha256:7ac19c54d237b72a5c3e30d28bab7145cb2b4246e824bf202402f843e43e3977'}
-  - {seq: 2, role: markers, filename: assets/KR6i0045_002.markers.yaml, hash: 'sha256:5532f1d8aa918b6c3e19631947ab2ed876730f2c29bf60854b068b856bf52d47'}
+  - {seq: 2, role: markers, filename: assets/KR6i0045_002.markers.yaml, hash: 'sha256:684c040f479afc43e11b36f2eab17e61162daf0cdbf92d10d5851da6107efc84'}
 table_of_contents:
 - ref:
     seq: 2
@@ -34,4 +34,7 @@ table_of_contents:
   label: 上生經䟽會古通今新抄卷第二
   type: juan
   level: 1
-hash: sha256:b2001233a938a0ea5fb4fc7cfff3f0165aebf76d1551490e850b1ee68f72ee64
+hash: sha256:835991adb9b06f44aca8a216ef6ced913307b9e4eb4964a178c1a8fab02aeee3
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
